@@ -1,0 +1,1585 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Alexandre">
+      
+      
+      
+        <link rel="prev" href="../2-Configuration%20markdown/">
+      
+      
+        <link rel="next" href="../../3-DATTO/Commandes%20datto/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Commandes Markdown - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-complet-des-commandes-markdown" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Commandes Markdown
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MARKDOWN
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            MARKDOWN
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-Installation%20markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-Configuration%20markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Commandes Markdown
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Commandes Markdown
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-titres-et-en-tetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Titres et En-têtes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Titres et En-têtes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-titres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Titres
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-listes-a-puces-et-listes-numerotees" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Listes à Puces et Listes Numérotées
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Listes à Puces et Listes Numérotées">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-listes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Listes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-texte-enrichi" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Texte Enrichi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Texte Enrichi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-texte-enrichi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Texte Enrichi
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-lignes-horizontales-separateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Lignes Horizontales (Séparateurs)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-citations" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Citations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Citations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Citation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-liens-hypertexte" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Liens Hypertexte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Liens Hypertexte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-liens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Liens
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Images
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Images">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dimage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'Image
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-blocs-de-code-et-code-en-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Blocs de Code et Code en Ligne
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Blocs de Code et Code en Ligne">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-tableaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Tableaux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Tableaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-tableau" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Tableau
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-checklists-listes-de-taches" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Checklists (Listes de Tâches)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Checklists (Listes de Tâches)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Checklist
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-emojis" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Emojis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-ancrages-internes" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Ancrages Internes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Ancrages Internes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dancrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'Ancrage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-notes-astuces-et-avertissements-material-for-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Notes, Astuces, et Avertissements (Material for MkDocs)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Notes, Astuces, et Avertissements (Material for MkDocs)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-boites-de-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Boîtes de Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-delimiter-des-sections-avec-des-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. Délimiter des Sections avec des Détails
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Délimiter des Sections avec des Détails">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Détails
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-html-integre" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. HTML Intégré
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. HTML Intégré">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-html-integre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de HTML Intégré
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-mentions-de-code-ou-de-commandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. Mentions de Code ou de Commandes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-bloc-citations-multi-niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. Bloc Citations Multi-niveaux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Bloc Citations Multi-niveaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-citation-multi-niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Citation Multi-niveaux
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DATTO
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            DATTO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3-DATTO/Commandes%20datto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commandes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    BITDEFENDER
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            BITDEFENDER
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4-BITDEFENDER/1-Installation%20bitdefender/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5-VEILLE%20TECHNO/Veille%20techno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VEILLE TECHNO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6-COMMANDES%20POUR%20LES%20NULS/commandes%20pour%20les%20nuls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commandes pour les nuls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-titres-et-en-tetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Titres et En-têtes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Titres et En-têtes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-titres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Titres
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-listes-a-puces-et-listes-numerotees" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Listes à Puces et Listes Numérotées
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Listes à Puces et Listes Numérotées">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-listes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Listes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-texte-enrichi" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Texte Enrichi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Texte Enrichi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-texte-enrichi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Texte Enrichi
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-lignes-horizontales-separateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Lignes Horizontales (Séparateurs)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-citations" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Citations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Citations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-citation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Citation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-liens-hypertexte" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Liens Hypertexte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Liens Hypertexte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-liens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Liens
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Images
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Images">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dimage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'Image
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-blocs-de-code-et-code-en-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Blocs de Code et Code en Ligne
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Blocs de Code et Code en Ligne">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-tableaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Tableaux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Tableaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-tableau" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Tableau
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-checklists-listes-de-taches" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Checklists (Listes de Tâches)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Checklists (Listes de Tâches)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Checklist
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-emojis" class="md-nav__link">
+    <span class="md-ellipsis">
+      11. Emojis
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-ancrages-internes" class="md-nav__link">
+    <span class="md-ellipsis">
+      12. Ancrages Internes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Ancrages Internes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-dancrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple d'Ancrage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-notes-astuces-et-avertissements-material-for-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      13. Notes, Astuces, et Avertissements (Material for MkDocs)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Notes, Astuces, et Avertissements (Material for MkDocs)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-boites-de-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Boîtes de Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-delimiter-des-sections-avec-des-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      14. Délimiter des Sections avec des Détails
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Délimiter des Sections avec des Détails">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Détails
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-html-integre" class="md-nav__link">
+    <span class="md-ellipsis">
+      15. HTML Intégré
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. HTML Intégré">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-html-integre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de HTML Intégré
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-mentions-de-code-ou-de-commandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      16. Mentions de Code ou de Commandes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-bloc-citations-multi-niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      17. Bloc Citations Multi-niveaux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Bloc Citations Multi-niveaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exemple-de-citation-multi-niveaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemple de Citation Multi-niveaux
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="guide-complet-des-commandes-markdown">Guide Complet des Commandes Markdown</h1>
+<p>Ce guide présente toutes les commandes Markdown essentielles pour créer une documentation riche et interactive. Ces éléments vous permettront de structurer votre contenu efficacement, en offrant une présentation lisible et esthétique.</p>
+<h2 id="1-titres-et-en-tetes">1. Titres et En-têtes</h2>
+<p>Les titres sont utilisés pour structurer votre contenu en niveaux hiérarchiques. Markdown supporte six niveaux de titres.</p>
+<h3 id="exemple-de-titres">Exemple de Titres</h3>
+<ul>
+<li><strong>Titre de Niveau 1</strong> (Titre principal) :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="gh"># Titre de Niveau 1</span>
+</span></code></pre></div></li>
+<li><strong>Titre de Niveau 2</strong> (Sous-titres principaux) :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="gu">## Titre de Niveau 2</span>
+</span></code></pre></div></li>
+<li><strong>Titre de Niveau 3 à Niveau 6</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="gu">### Titre de Niveau 3</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="gu">#### Titre de Niveau 4</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="gu">##### Titre de Niveau 5</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="gu">###### Titre de Niveau 6</span>
+</span></code></pre></div></li>
+</ul>
+<h2 id="2-listes-a-puces-et-listes-numerotees">2. Listes à Puces et Listes Numérotées</h2>
+<p>Vous pouvez créer des listes à puces ou des listes numérotées pour structurer vos idées.</p>
+<h3 id="exemple-de-listes">Exemple de Listes</h3>
+<ul>
+<li>
+<p><strong>Liste à Puces</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="k">-</span><span class="w"> </span>Élément 1
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="k">-</span><span class="w"> </span>Élément 2
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span><span class="k">-</span><span class="w"> </span>Sous-élément 2.1
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">  </span><span class="k">-</span><span class="w"> </span>Sous-élément 2.2
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="k">*</span><span class="w"> </span>Élément avec astérisque
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>+ Élément avec plus
+</span></code></pre></div></p>
+</li>
+<li>
+<p><strong>Liste Numérotée</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">1.</span> Premier élément
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="k">2.</span> Deuxième élément
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">   </span><span class="k">1.</span> Sous-élément 2.1
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">   </span><span class="k">2.</span> Sous-élément 2.2
+</span></code></pre></div></p>
+</li>
+</ul>
+<h2 id="3-texte-enrichi">3. Texte Enrichi</h2>
+<p>Markdown permet de formater le texte pour ajouter de l'importance ou du style.</p>
+<h3 id="exemple-de-texte-enrichi">Exemple de Texte Enrichi</h3>
+<ul>
+<li><strong>Italique</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="ge">*Texte en italique*</span> ou <span class="ge">_Texte en italique_</span>
+</span></code></pre></div></li>
+<li><strong>Gras</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="gs">**Texte en gras**</span> ou <span class="gs">__Texte en gras__</span>
+</span></code></pre></div></li>
+<li><strong>Gras et Italique Combinés</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>***Texte en gras et italique***
+</span></code></pre></div></li>
+</ul>
+<h2 id="4-lignes-horizontales-separateurs">4. Lignes Horizontales (Séparateurs)</h2>
+<p>Pour insérer une ligne horizontale :</p>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>---
+</span></code></pre></div>
+<p>Ou utilisez trois astérisques (<code>***</code>) ou trois tirets bas (<code>___</code>) :</p>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>***
+</span></code></pre></div>
+<h2 id="5-citations">5. Citations</h2>
+<p>Pour insérer une citation, utilisez le signe <code>&gt;</code>.</p>
+<h3 id="exemple-de-citation">Exemple de Citation</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="k">&gt; </span><span class="ge">Ceci est une citation.</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="k">&gt; </span><span class="ge">Vous pouvez également faire des citations sur plusieurs lignes.</span>
+</span></code></pre></div>
+<h2 id="6-liens-hypertexte">6. Liens Hypertexte</h2>
+<p>Créer des liens vers d'autres pages ou ressources.</p>
+<h3 id="exemple-de-liens">Exemple de Liens</h3>
+<ul>
+<li><strong>Lien Texte</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>[<span class="nt">Texte du lien</span>](<span class="na">https://www.exemple.com</span>)
+</span></code></pre></div></li>
+<li><strong>Lien avec Titre Optionnel</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>[<span class="nt">Texte du lien</span>](<span class="na">https://www.exemple.com &quot;Titre de l&#39;info-bulle&quot;</span>)
+</span></code></pre></div></li>
+<li><strong>Lien relatif</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>[<span class="nt">Voir la section suivante</span>](<span class="na">./section_suivante.md</span>)
+</span></code></pre></div></li>
+</ul>
+<h2 id="7-images">7. Images</h2>
+<p>Insérer des images avec une syntaxe similaire aux liens, mais avec un point d'exclamation (<code>!</code>) au début.</p>
+<h3 id="exemple-dimage">Exemple d'Image</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>![<span class="nt">Texte alternatif</span>](<span class="na">chemin/vers/image.jpg &quot;Titre optionnel de l&#39;image&quot;</span>)
+</span></code></pre></div>
+<h2 id="8-blocs-de-code-et-code-en-ligne">8. Blocs de Code et Code en Ligne</h2>
+<p>Pour insérer des blocs de code ou du code en ligne.</p>
+<h3 id="exemple-de-code">Exemple de Code</h3>
+<ul>
+<li><strong>Code en Ligne</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Voici <span class="sb">`une commande`</span> dans le texte.
+</span></code></pre></div></li>
+<li><strong>Bloc de Code</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>```python
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>def dire_bonjour():
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>    print(&quot;Bonjour, monde !&quot;)
+</span></code></pre></div>
+  ```</li>
+</ul>
+<h2 id="9-tableaux">9. Tableaux</h2>
+<p>Créer des tableaux pour organiser les données en lignes et colonnes.</p>
+<h3 id="exemple-de-tableau">Exemple de Tableau</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>| Colonne 1     | Colonne 2     | Colonne 3     |
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>|---------------|---------------|---------------|
+</span><span id="__span-17-3"><a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>| Contenu 1.1   | Contenu 1.2   | Contenu 1.3   |
+</span><span id="__span-17-4"><a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>| Contenu 2.1   | Contenu 2.2   | Contenu 2.3   |
+</span></code></pre></div>
+<h2 id="10-checklists-listes-de-taches">10. Checklists (Listes de Tâches)</h2>
+<p>Utile pour les listes de tâches dans des guides ou des documentations techniques.</p>
+<h3 id="exemple-de-checklist">Exemple de Checklist</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="k">- [x]</span> Étape 1 : Installer Python
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="k">- [ ]</span> Étape 2 : Installer MkDocs
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="k">- [ ]</span> Étape 3 : Configurer le site
+</span></code></pre></div>
+<h2 id="11-emojis">11. Emojis</h2>
+<p>Certains systèmes Markdown permettent d'utiliser des <strong>emojis</strong> en utilisant la syntaxe suivante :</p>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>:smile: :heart: :+1:
+</span></code></pre></div>
+<h2 id="12-ancrages-internes">12. Ancrages Internes</h2>
+<p>Pour créer des liens internes qui mènent à une section spécifique d'une même page.</p>
+<h3 id="exemple-dancrage">Exemple d'Ancrage</h3>
+<ul>
+<li>Titre :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="gu">## Installation de MkDocs</span>
+</span></code></pre></div></li>
+<li>Lien interne :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>[<span class="nt">Installation de MkDocs</span>](<span class="na">#installation-de-mkdocs</span>)
+</span></code></pre></div></li>
+</ul>
+<h2 id="13-notes-astuces-et-avertissements-material-for-mkdocs">13. Notes, Astuces, et Avertissements (Material for MkDocs)</h2>
+<p>Le thème <strong>Material for MkDocs</strong> offre des styles de boîtes spéciales pour les notes et avertissements.</p>
+<h3 id="exemple-de-boites-de-notes">Exemple de Boîtes de Notes</h3>
+<ul>
+<li><strong>Note</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>!!! note
+</span><span id="__span-22-2"><a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>    Ceci est une note pour attirer l&#39;attention sur un point particulier.
+</span></code></pre></div></li>
+<li><strong>Avertissement</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>!!! warning
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>    Ceci est un avertissement pour indiquer une action risquée.
+</span></code></pre></div></li>
+<li><strong>Astuce</strong> :
+  <div class="language-markdown highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>!!! tip
+</span><span id="__span-24-2"><a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>    Ceci est une astuce pour donner un conseil utile.
+</span></code></pre></div></li>
+</ul>
+<h2 id="14-delimiter-des-sections-avec-des-details">14. Délimiter des Sections avec des Détails</h2>
+<p>Pour regrouper des sections qui peuvent être ouvertes/fermées (cachées).</p>
+<h3 id="exemple-de-details">Exemple de Détails</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>&lt;details&gt;
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>  &lt;summary&gt;Cliquez ici pour plus de détails&lt;/summary&gt;
+</span><span id="__span-25-3"><a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>
+</span><span id="__span-25-4"><a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>  Voici le texte qui apparaît lorsque vous ouvrez cette section.
+</span><span id="__span-25-5"><a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a>
+</span><span id="__span-25-6"><a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a>&lt;/details&gt;
+</span></code></pre></div>
+<h2 id="15-html-integre">15. HTML Intégré</h2>
+<p>Vous pouvez également intégrer du HTML directement dans Markdown si vous avez besoin d'un formatage plus complexe.</p>
+<h3 id="exemple-de-html-integre">Exemple de HTML Intégré</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a>&lt;div style=&quot;background-color: <span class="ni">#f9f9f9</span>; padding: 10px; border-radius: 5px;&quot;&gt;
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>  Ceci est une boîte personnalisée.
+</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>&lt;/div&gt;
+</span></code></pre></div>
+<h2 id="16-mentions-de-code-ou-de-commandes">16. Mentions de Code ou de Commandes</h2>
+<p>Pour mentionner des commandes spécifiques (par exemple des commandes de terminal ou de programme) en ligne :</p>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>Pour installer MkDocs, utilisez la commande <span class="sb">`pip install mkdocs`</span>.
+</span></code></pre></div>
+<h2 id="17-bloc-citations-multi-niveaux">17. Bloc Citations Multi-niveaux</h2>
+<p>Pour faire une citation imbriquée (par exemple, une citation dans une autre citation) :</p>
+<h3 id="exemple-de-citation-multi-niveaux">Exemple de Citation Multi-niveaux</h3>
+<div class="language-markdown highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="k">&gt; </span><span class="ge">Voici une citation principale.</span>
+</span><span id="__span-28-2"><a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="k">&gt; </span><span class="ge">&gt; Et voici une citation à l&#39;intérieur de la première.</span>
+</span></code></pre></div>
+<h2 id="conclusion">Conclusion</h2>
+<p>Markdown est un langage très simple mais puissant pour créer des documents bien structurés et lisibles. Vous pouvez utiliser les éléments ci-dessus pour rendre votre documentation plus <strong>interactive</strong> et <strong>attrayante</strong>, tout en gardant une approche facile à écrire et à lire.</p>
+<p>Avec <strong>MkDocs</strong> ou <strong>Material for MkDocs</strong>, les fonctionnalités étendues (comme les notes et les boîtes d'avertissement) sont particulièrement utiles pour une documentation claire et professionnelle.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.select", "content.code.copy", "navigation.top"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

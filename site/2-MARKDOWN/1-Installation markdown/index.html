@@ -1,0 +1,1097 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Alexandre">
+      
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../2-Configuration%20markdown/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+    
+    
+      
+        <title>Installation - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#installation-markdown-sur-mac" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Installation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Accueil
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MARKDOWN
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            MARKDOWN
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#procedure-pour-installer-markdown-avec-visual-studio-code-et-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procédure pour Installer Markdown avec Visual Studio Code et GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-installation-de-homebrew-facultatif" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Installation de Homebrew (Facultatif)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Installation de Homebrew (Facultatif)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-installer-homebrew" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Installer Homebrew
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-installation-de-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Installation de Visual Studio Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Installation de Visual Studio Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-telecharger-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Télécharger Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-lancer-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Lancer Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-installation-de-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Installation de GitHub Desktop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Installation de GitHub Desktop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-telecharger-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Télécharger GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-lancer-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Lancer GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-installation-de-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Installation de Git
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Installation de Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-installer-git-avec-homebrew" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Installer Git avec Homebrew
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-creer-et-gerer-des-fichiers-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Créer et Gérer des Fichiers Markdown
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Créer et Gérer des Fichiers Markdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-creer-un-nouveau-fichier-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Créer un Nouveau Fichier Markdown
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-versionner-avec-git-et-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Versionner avec Git et GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-synchroniser-avec-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Synchroniser avec GitHub
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Résumé
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2-Configuration%20markdown/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Configuration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3-Commandes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commandes Markdown
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DATTO
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            DATTO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3-DATTO/Commandes%20datto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commandes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    BITDEFENDER
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            BITDEFENDER
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4-BITDEFENDER/1-Installation%20bitdefender/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5-VEILLE%20TECHNO/Veille%20techno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    VEILLE TECHNO
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6-COMMANDES%20POUR%20LES%20NULS/commandes%20pour%20les%20nuls/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commandes pour les nuls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#procedure-pour-installer-markdown-avec-visual-studio-code-et-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Procédure pour Installer Markdown avec Visual Studio Code et GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-installation-de-homebrew-facultatif" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Installation de Homebrew (Facultatif)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Installation de Homebrew (Facultatif)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-installer-homebrew" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Installer Homebrew
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-installation-de-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Installation de Visual Studio Code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Installation de Visual Studio Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-telecharger-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Télécharger Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-lancer-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Lancer Visual Studio Code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-installation-de-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Installation de GitHub Desktop
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Installation de GitHub Desktop">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-telecharger-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Télécharger GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-lancer-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Lancer GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-installation-de-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Installation de Git
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Installation de Git">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-installer-git-avec-homebrew" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Installer Git avec Homebrew
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-creer-et-gerer-des-fichiers-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Créer et Gérer des Fichiers Markdown
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Créer et Gérer des Fichiers Markdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-creer-un-nouveau-fichier-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Créer un Nouveau Fichier Markdown
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-versionner-avec-git-et-github-desktop" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Versionner avec Git et GitHub Desktop
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-synchroniser-avec-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Synchroniser avec GitHub
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-resume" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Résumé
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="installation-markdown-sur-mac">Installation Markdown sur MAC</h1>
+<h2 id="procedure-pour-installer-markdown-avec-visual-studio-code-et-github-desktop">Procédure pour Installer Markdown avec Visual Studio Code et GitHub Desktop</h2>
+<p>Cette procédure vous guidera à travers l'installation de <strong>Visual Studio Code</strong>, <strong>GitHub Desktop</strong>, et l'utilisation de <strong>Markdown</strong> pour créer et gérer des fichiers de documentation.</p>
+<h2 id="1-installation-de-homebrew-facultatif">1. Installation de Homebrew (Facultatif)</h2>
+<p>Pour faciliter l'installation des différents outils, nous allons d'abord installer <strong>Homebrew</strong>, un gestionnaire de paquets pour macOS. Si vous avez déjà Homebrew, vous pouvez passer cette étape.</p>
+<h3 id="etape-1-installer-homebrew">Étape 1 : Installer Homebrew</h3>
+<ol>
+<li><strong>Ouvrez le Terminal</strong> (Cmd + Espace, tapez "Terminal" et appuyez sur Entrée).</li>
+<li><strong>Tapez la commande suivante</strong> pour installer Homebrew :</li>
+</ol>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>/bin/bash<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="k">)</span><span class="s2">&quot;</span>
+</span></code></pre></div>
+<ol>
+<li><strong>Ajoutez Homebrew au PATH</strong> (si nécessaire) en suivant les instructions affichées à la fin de l'installation.</li>
+<li><strong>Vérifiez l'installation</strong> en tapant :</li>
+</ol>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>brew<span class="w"> </span>--version
+</span></code></pre></div>
+<h2 id="2-installation-de-visual-studio-code">2. Installation de Visual Studio Code</h2>
+<p><strong>Visual Studio Code</strong> (VS Code) est un éditeur de texte puissant que nous utiliserons pour écrire du Markdown.</p>
+<h3 id="etape-1-telecharger-visual-studio-code">Étape 1 : Télécharger Visual Studio Code</h3>
+<ol>
+<li>Allez sur le site officiel de <strong>Visual Studio Code</strong> : <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>.</li>
+<li>Cliquez sur le bouton <strong>Download</strong> pour télécharger la version pour <strong>macOS</strong>.</li>
+<li>Une fois téléchargé, <strong>ouvrez le fichier <code>.dmg</code></strong> et <strong>glissez</strong> l'icône de Visual Studio Code dans le dossier <strong>Applications</strong>.</li>
+</ol>
+<h3 id="etape-2-lancer-visual-studio-code">Étape 2 : Lancer Visual Studio Code</h3>
+<ol>
+<li>Ouvrez le dossier <strong>Applications</strong> et double-cliquez sur <strong>Visual Studio Code</strong> pour le lancer.</li>
+<li>Vous pouvez également installer <strong>l'outil en ligne de commande</strong> <code>code</code> en utilisant Visual Studio Code. Ouvrez VS Code, appuyez sur <code>Cmd + Shift + P</code>, puis tapez "Shell Command: Install 'code' command in PATH".</li>
+</ol>
+<h2 id="3-installation-de-github-desktop">3. Installation de GitHub Desktop</h2>
+<p><strong>GitHub Desktop</strong> est une interface graphique qui vous permet de gérer vos dépôts Git sans utiliser directement la ligne de commande.</p>
+<h3 id="etape-1-telecharger-github-desktop">Étape 1 : Télécharger GitHub Desktop</h3>
+<ol>
+<li>Allez sur le site officiel de <strong>GitHub Desktop</strong> : <a href="https://desktop.github.com/">https://desktop.github.com/</a>.</li>
+<li>Cliquez sur le bouton <strong>Download for macOS</strong> pour télécharger le fichier d'installation.</li>
+<li>Ouvrez le fichier <code>.dmg</code> téléchargé et <strong>glissez</strong> l'icône de GitHub Desktop dans le dossier <strong>Applications</strong>.</li>
+</ol>
+<h3 id="etape-2-lancer-github-desktop">Étape 2 : Lancer GitHub Desktop</h3>
+<ol>
+<li>Allez dans le dossier <strong>Applications</strong> et ouvrez <strong>GitHub Desktop</strong>.</li>
+<li>Suivez les instructions pour <strong>vous connecter</strong> à votre compte GitHub ou en créer un.</li>
+</ol>
+<h2 id="4-installation-de-git">4. Installation de Git</h2>
+<p>Git est un outil de gestion de version qui vous permet de suivre les modifications apportées à vos fichiers Markdown.</p>
+<h3 id="etape-1-installer-git-avec-homebrew">Étape 1 : Installer Git avec Homebrew</h3>
+<ol>
+<li><strong>Ouvrez le Terminal</strong>.</li>
+<li>Tapez la commande suivante pour installer <strong>Git</strong> :</li>
+</ol>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>brew<span class="w"> </span>install<span class="w"> </span>git
+</span></code></pre></div>
+<ol>
+<li><strong>Vérifiez l'installation</strong> en tapant :</li>
+</ol>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git<span class="w"> </span>--version
+</span></code></pre></div>
+<h2 id="5-creer-et-gerer-des-fichiers-markdown">5. Créer et Gérer des Fichiers Markdown</h2>
+<p>Maintenant que tous les outils sont installés, vous pouvez créer des fichiers Markdown et les gérer avec Git et GitHub.</p>
+<h3 id="etape-1-creer-un-nouveau-fichier-markdown">Étape 1 : Créer un Nouveau Fichier Markdown</h3>
+<ol>
+<li><strong>Ouvrez Visual Studio Code</strong>.</li>
+<li><strong>Créez un nouveau fichier</strong> : Appuyez sur <code>Cmd + N</code> pour créer un nouveau document, puis enregistrez-le en tant que <code>mon_fichier.md</code>.</li>
+<li><strong>Commencez à écrire en Markdown</strong> en utilisant la syntaxe Markdown (par exemple, <code># Titre</code>, <code>- Liste à puces</code>, etc.).</li>
+</ol>
+<h3 id="etape-2-versionner-avec-git-et-github-desktop">Étape 2 : Versionner avec Git et GitHub Desktop</h3>
+<ol>
+<li><strong>Ouvrez GitHub Desktop</strong>.</li>
+<li><strong>Créez un nouveau dépôt</strong> ou <strong>clonez un dépôt existant</strong>.</li>
+<li><strong>Ajoutez vos fichiers Markdown</strong> au dépôt en les plaçant dans le dossier de votre dépôt local.</li>
+<li>Utilisez <strong>GitHub Desktop</strong> pour <strong>committer</strong> vos modifications et les <strong>pusher</strong> vers GitHub.</li>
+</ol>
+<h3 id="etape-3-synchroniser-avec-github">Étape 3 : Synchroniser avec GitHub</h3>
+<ol>
+<li>Pour chaque modification dans Visual Studio Code, enregistrez le fichier (<code>Cmd + S</code>).</li>
+<li>Dans GitHub Desktop, ajoutez un <strong>commit message</strong> pour décrire la modification, puis <strong>Commit to main</strong>.</li>
+<li>Cliquez sur <strong>Push origin</strong> pour synchroniser vos modifications avec le dépôt distant sur GitHub.</li>
+</ol>
+<h2 id="6-resume">6. Résumé</h2>
+<ul>
+<li><strong>Homebrew</strong> : Permet d'installer des outils facilement.</li>
+<li><strong>Visual Studio Code</strong> : Utilisé pour éditer des fichiers Markdown.</li>
+<li><strong>GitHub Desktop</strong> : Interface graphique pour gérer vos projets Git.</li>
+<li><strong>Git</strong> : Outil de gestion de version.</li>
+</ul>
+<h1 id="installation-markdown-sur-windows">Installation Markdown sur Windows</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.select", "content.code.copy", "navigation.top"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
